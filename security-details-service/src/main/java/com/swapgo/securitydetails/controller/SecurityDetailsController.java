@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.swapgo.securitydetails.configuration.TurnOverConfiguration;
 import com.swapgo.securitydetails.model.SecurityDetail;
 import com.swapgo.securitydetails.repository.SecurityDetailsRepository;
@@ -53,17 +54,17 @@ public class SecurityDetailsController {
 		return securityDetailsRepository.findByScriptName(scriptName).get();
 	}
 	
-	/*
+	
 	@GetMapping("/fault-tolerance-data")
 	@HystrixCommand(fallbackMethod="fallbackRetrieveData")
 	public SecurityDetail retrieveConfiguration() {
 		throw new RuntimeException("Not available");
 	}
 
-	public String fallbackRetrieveData() {
-		return "Found some issue";
+	public SecurityDetail fallbackRetrieveData() {
+		return new SecurityDetail();
 	}
-	*/
+	
 
 	
 	
