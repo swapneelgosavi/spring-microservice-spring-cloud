@@ -31,4 +31,8 @@ It has features like :
  #### Project HLD2 :
  
  ![alt text](https://github.com/swapneelgosavi/spring-microservice-spring-cloud/blob/master/readme_images/HLD2.JPG)
+
+ #### Project HLD3 (client side load balancing):
  
+ ![alt text](https://github.com/swapneelgosavi/spring-microservice-spring-cloud/blob/master/readme_images/HLD3.JPG)
+
