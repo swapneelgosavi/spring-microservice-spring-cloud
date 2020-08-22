@@ -1,7 +1,7 @@
 ## spring-microservice-spring-cloud
 #### Dependencies Used : Spring Boot, Spring REST, Spring JPA, Spring Actuator, H2 Database, Spring-Cloud-Config-Server, Neflix Eureka Server & Client, Spring Openfeign, Neflix Ribbon, Netflix Zuul, Spring Sleuth, Spring Zipkin and RabbitMQ, Netflix Hystrix  
 
-Microservice project comprising differnet components of Spring Cloud. This is microservice cloud ready project.
+Microservice project comprising different components of Spring Cloud. This is microservice cloud ready project.
 It has features like :
   1. Inter-communication between microservices using **Spring Openfeign REST client**
   2. Microservice Configuration with Centralized **Spring Cloud Config Server**
