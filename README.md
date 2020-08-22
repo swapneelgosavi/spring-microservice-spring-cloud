@@ -86,5 +86,5 @@ It has features like :
   
 
 
-###**(NOTE : This project is based on hypothetical bussiness example. This project is showcase technical skills)**
+###**(NOTE : This project is based on hypothetical bussiness example. This project is to showcase technical skills)**
 
