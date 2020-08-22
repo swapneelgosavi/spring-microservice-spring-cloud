@@ -9,7 +9,7 @@ It has features like :
   5. Client side load balancing with **Ribbon**
   6. Dynamic scaling using **Eureka Naming Server and Ribbon**
   7. API Gateway with **Netflix Zuul**
-  8. Distributed tracing with **Spring Cloud Sleuth and Zipkin** (TODO)
+  8. Distributed tracing with **Spring Cloud Sleuth and (Zipkin : TODO)**
   9. Fault Tolerance with **netflix Hystrix**
 
  Following are the components/applications in the project (Order of starting applicatio should be as follow ):
