@@ -1,5 +1,5 @@
 ## spring-microservice-spring-cloud
-#### Dependencies Used : Spring Boot, Spring REST, Spring JPA, Spring Actuator,H2 Database, Spring-Cloud-Config-Server, Neflix Eureka Server & Client, Spring Openfeign,Neflix Ribbon, Netflix Zuul, Spring Sleuth, Spring Zipkin and RabbitMQ  
+#### Dependencies Used : Spring Boot, Spring REST, Spring JPA, Spring Actuator, H2 Database, Spring-Cloud-Config-Server, Neflix Eureka Server & Client, Spring Openfeign, Neflix Ribbon, Netflix Zuul, Spring Sleuth, Spring Zipkin and RabbitMQ, Netflix Hystrix  
 
 Microservice project comprising differnet components of Spring Cloud. This is microservice cloud ready project.
 It has features like :
@@ -9,5 +9,5 @@ It has features like :
   5. Client side load balancing with **Ribbon**
   6. Dynamic scaling using **Eureka Naming Server and Ribbon**
   7. API Gateway with **Netflix Zuul**
-  8. Distributed tracing with **Spring Cloud Sleuth and Zipkin**
-  9. Fault Tolerance with **Zipkin**
+  8. Distributed tracing with **Spring Cloud Sleuth and Zipkin** (TODO)
+  9. Fault Tolerance with **netflix Hystrix**
