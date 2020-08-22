@@ -24,7 +24,11 @@ It has features like :
  |turnover-cal-service                   |(8001,8002,..)  |                                                    |
  
 
- #### Project HLD :
+ #### Project HLD1 :
  
  ![alt text](https://github.com/swapneelgosavi/spring-microservice-spring-cloud/blob/master/readme_images/HLD.JPG)
+ 
+ #### Project HLD2 :
+ 
+ ![alt text](https://github.com/swapneelgosavi/spring-microservice-spring-cloud/blob/master/readme_images/HLD2.JPG)
  
