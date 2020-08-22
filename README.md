@@ -23,3 +23,7 @@ It has features like :
  |security-details-service               |(8080,8081,..)  |                                                    |
  |turnover-cal-service                   |(8001,8002,..)  |                                                    |
  
+
+ Project HLD :
+ 
+ 
