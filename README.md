@@ -84,10 +84,7 @@ It has features like :
         port	8080
       ```
   
-  
-    
-     ```
-     ```
- 
 
+
+###**(NOTE : This project is based on hypothetical bussiness example. This project is showcase technical skills)**
 
