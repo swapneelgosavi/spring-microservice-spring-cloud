@@ -53,3 +53,41 @@ It has features like :
  
  ![alt text](https://github.com/swapneelgosavi/spring-microservice-spring-cloud/blob/master/readme_images/HLD3.JPG)
 
+
+ #### Sample Output :
+  1. security-details-service : 
+     ```
+       0	
+        id	4
+        scriptName	"RBS"
+        securityFullName	"RBS FULL"
+        turnover	200
+        faceValue	15
+        port	8080
+      1	
+        id	5
+        scriptName	"NFS"
+        securityFullName	"NFS FULL"
+        turnover	250
+        faceValue	16
+        port	8080
+     ``` 
+ 
+  2. turnover-cal-service :
+  
+      ```
+        totalTurnover	450
+        maxTurnover	250
+        maxTurnoverScriptName	"NFS"
+        minTurnover	200
+        minTurnoverScriptName	"RBS"
+        port	8080
+      ```
+  
+  
+    
+     ```
+     ```
+ 
+
+
