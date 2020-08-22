@@ -14,14 +14,14 @@ It has features like :
 
  Following are the components/applications in the project (Order of starting applicatio should be as follow ):
  
- | Application Names                     | Ports Used     |  URLS                                              |
- | ------------------------------------- | -------------- | -------------------------------------------------- |
- |Zipkin Server (TODO)                   |(TODO)          |                                                    |   
- |netflix-eureka-naming-server           |8761            |                                                    |
- |netflix-zuul-api-gateway-server        |8765            |                                                    |
- |spring-cloud-config-server             |8888            |                                                    |
- |security-details-service               |(8080,8081,..)  |                                                    |
- |turnover-cal-service                   |(8001,8002,..)  |                                                    |
+ | Application Names                     | Ports Used     |  URLS                                              |URL via API Gateway                          |
+ | ------------------------------------- | -------------- | -------------------------------------------------- |---------------------------------------------
+ |Zipkin Server (TODO)                   |(TODO)          |                                                    |   |
+ |netflix-eureka-naming-server           |8761            |http://localhost:8761/                              ||
+ |netflix-zuul-api-gateway-server        |8765            |                                                    ||
+ |spring-cloud-config-server             |8888            |http://localhost:8888/security-details-service/turnover-range  ||
+ |security-details-service               |(8080,8081,..)  |http://localhost:8080/getsecurity/                  |http://**localhost:8765**/security-details-service/getsecurity/|
+ |turnover-cal-service                   |(8000,8001,..)  |http://localhost:8000/get-turnover                  |http://**localhost:8765**/turnover-cal-service/get-turnover/|
  
 
  #### Project HLD1 :
