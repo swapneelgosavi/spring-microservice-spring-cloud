@@ -12,6 +12,23 @@ It has features like :
   8. Distributed tracing with **Spring Cloud Sleuth and (Zipkin : TODO)**
   9. Fault Tolerance with **netflix Hystrix**
 
+
+ #### Project Description :
+  1. security-details-service : Service return's list of security. But it returns all securities between the min and max value of security turnover. Min and Max value 
+  of turnover limit is stored in property file which is managed by spring-cloud-config-server.
+ 
+  2. spring-cloud-config-server : Stores the configuration of security-details-service.
+        
+        ```
+          security-details-service.minturnover=200
+          security-details-service.maxturnover=250
+        ```
+   3. turnover-cal-service : This service is dependent on  security-details-service. turnover-cal-service get list of securities from  security-details-service and returns total sum of turnover's of all securities returned by security-details-service.      
+ 
+   4. netflix-eureka-naming-server: Naming registry server
+   5. netflix-zuul-api-gateway-server : Requests from turnover-cal-service for security-details-service are routed thru API gateway server.
+ 
+
  Following are the components/applications in the project (Order of starting applicatio should be as follow ):
  
  | Application Names                     | Ports Used     |  URLS                                              |URL via API Gateway                          |
