@@ -11,3 +11,15 @@ It has features like :
   7. API Gateway with **Netflix Zuul**
   8. Distributed tracing with **Spring Cloud Sleuth and Zipkin** (TODO)
   9. Fault Tolerance with **netflix Hystrix**
+
+ Following are the components/applications in the project (Order of starting applicatio should be as follow ):
+ 
+ | Application Names                     | Ports Used     |  URLS                                              |
+ | ------------------------------------- | -------------- | -------------------------------------------------- |
+ |Ziplin Server (TODO)                   |(TODO)          |                                                    |   
+ |netflix-eureka-naming-server           |8761            |                                                    |
+ |netflix-zuul-api-gateway-server        |8765            |                                                    |
+ |spring-cloud-config-server             |8888            |                                                    |
+ |security-details-service               |(8080,8081,..)  |                                                    |
+ |turnover-cal-service                   |(8001,8002,..)  |                                                    |
+ 
