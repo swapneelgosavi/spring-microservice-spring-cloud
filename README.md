@@ -29,7 +29,7 @@ It has features like :
    5. netflix-zuul-api-gateway-server : Requests from turnover-cal-service for security-details-service are routed thru API gateway server.
  
 
- Following are the components/applications in the project (Order of starting applicatio should be as follow ):
+ Following are the components/applications in the project (Order of starting application's should be as follow ):
  
  | Application Names                     | Ports Used     |  URLS                                              |URL via API Gateway                          |
  | ------------------------------------- | -------------- | -------------------------------------------------- |---------------------------------------------
