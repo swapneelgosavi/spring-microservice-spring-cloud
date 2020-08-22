@@ -16,7 +16,7 @@ It has features like :
  
  | Application Names                     | Ports Used     |  URLS                                              |
  | ------------------------------------- | -------------- | -------------------------------------------------- |
- |Ziplin Server (TODO)                   |(TODO)          |                                                    |   
+ |Zipkin Server (TODO)                   |(TODO)          |                                                    |   
  |netflix-eureka-naming-server           |8761            |                                                    |
  |netflix-zuul-api-gateway-server        |8765            |                                                    |
  |spring-cloud-config-server             |8888            |                                                    |
